@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <title>TIC TAC TOE</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <div id='header1'>
+
+    <div id='main_heading'>TIC TAC TOE</div>
+
+    <div><button id='lets-play_button' style='height: 80px; width: 320px; background: rgba(0,0,0,0.7); color: white; font-size: 40px; border: double; border-color: gray;'>LET'S PLAY</button></div>
+
+  </div>
+
+  <div id='major_block'>
+
+    <div id='random1'></div>
+
+    <div id='tic-tac-toe_block'>
+
+      <div id='row_1'>
+
+        <div id='block_1'><button id='button1' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_2'><button id='button2' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_3'><button id='button3' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+      </div>
+
+      <div id='row_2'>
+
+        <div id='block_4'><button id='button4' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_5'><button id='button5' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_6'><button id='button6' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+      </div>
+
+      <div id='row_3'>
+
+        <div id='block_7'><button id='button7' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_8'><button id='button8' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+        <div id='block_9'><button id='button9' style='height: 190px; width: 190px; background: rgba(0,0,0,0.3); border-radius: 10%;'> </button></div>
+
+      </div>
+
+    </div>
+
+    <div id='random2'></div>
+
+  </div>
+
+  <div id='reset_block'>
+
+    <div id='reset_button'><button id='the-reset-button' onclick='reset()' style='height: 50px; width: 140px; background: rgba(0,0,0,0); border-radius: 10%;font-size: 25px; color: white; margin-top: 15px; margin-bottom: 15px;'>RESET</button></div>
+
+  </div>
+
+  <div id='history' style='background-image: url(https://www.planwallpaper.com/static/images/wallpapers-hd-7974-8304-hd-wallpapers.jpg); background-position: absolute; background-size: cover;'>
+
+    <div id='header2'>A LITTLE HISTORY...</div>
+
+      <div id='history_text' style="overflow:scroll; height:500px;">
+
+        <p id='paragraph1'>
+        An early variant of Tic-tac-toe was played in the Roman Empire, around the first century BC. It was called Terni Lapilli and instead of having any number of pieces, each player only had three, thus they had to move them around to empty spaces to keep playing. The game's grid markings have been found chalked all over Rome. However, according to Claudia Zaslavsky's book Tic Tac Toe: And Other Three-In-A Row Games from Ancient Egypt to the Modern Computer, Tic-tac-toe could originate back to ancient Egypt. Another closely related ancient game is Three Men's Morris which is also played on a simple grid and requires three pieces in a row to finish.
+        </p>
+
+        <p id='paragraph2'>
+        The different names of the game are more recent. The first print reference to "Noughts and crosses", the British name, appeared in 1864. In his novel "Can You Forgive Her", 1864, Anthony Trollope refers to a clerk playing "tit-tat-toe". The first print reference to a game called "tick-tack-toe" occurred in 1884, but referred to "a children's game played on a slate, consisting in trying with the eyes shut to bring the pencil down on one of the numbers of a set, the number hit being scored". "Tic-tac-toe" may also derive from "tick-tack", the name of an old version of backgammon first described in 1558. The U.S. renaming of Noughts and crosses as Tic-tac-toe occurred in the 20th century.
+        </p>
+
+        <p id='paragraph3'>
+        In 1952, OXO (or Noughts and Crosses) for the EDSAC computer became one of the first known video games. The computer player could play perfect games of Tic-tac-toe against a human opponent. In 1975, Tic-tac-toe was also used by MIT students to demonstrate the computational power of Tinkertoy elements. The Tinkertoy computer, made out of (almost) only Tinkertoys, is able to play Tic-tac-toe perfectly. It is currently on display at the Museum of Science, Boston.
+        </p>
+
+      </div>
+
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>

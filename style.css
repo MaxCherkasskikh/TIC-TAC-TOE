@@ -1,0 +1,244 @@
+
+#header1 {
+   background-image: url('https://images6.alphacoders.com/316/316963.jpg');
+   background-position: relative;
+   margin-top: -200px;
+   margin-left: -8px;
+   margin-right: -8px;
+   box-sizing: border-box;
+   background-size: cover;
+   height: 650px;
+   padding-top: 0px;
+   padding-bottom: 0px;
+   padding-left: 0px;
+   padding-right: 0px;
+}
+
+#main_heading {
+  position: absolute;
+  margin-top: 250px;
+  margin-left: 290px;
+  font-size: 120px;
+  font-style: bold;
+  color: white;
+}
+
+#lets-play_button {
+  position: absolute;
+  margin-top: 475px;
+  margin-left: 480px;
+  font-size: 80px;
+  width: 100px;
+  height: 50px;
+  padding: 0px;
+  color: white;
+}
+
+#major_block {
+  display: flex;
+  background-image: url('https://secure.img2.wfrcdn.com/lf/maxsquare/hash/11325/13939173/1/Game%2BNight%2BTic%2BTac%2BToe%2BShot%2BGlass%2BSet.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  display: none;
+}
+
+#random1 {
+  margin: auto;
+  position: relative;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 620px;
+  width: 350px;
+}
+
+#tic-tac-toe_block {
+  margin: auto;
+  display: inline;
+}
+
+#random2 {
+  margin: auto;
+  position: relative;
+  background-size: cover;
+  box-sizing: border-box;
+  height: 620px;
+  width: 350px;
+}
+
+  #row_1 {
+    display: flex;
+  }
+
+    #block_1 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+
+    }
+    #block_2 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+    #block_3 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+
+  #row_2 {
+    display: flex;
+  }
+
+    #block_4 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+    #block_5 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+    #block_6 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+  }
+
+  #row_3 {
+    display: flex;
+  }
+
+    #block_7 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+    #block_8 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+    }
+    #block_9 {
+      height: 200px;
+      width: 200px;
+      box-sizing: border-box;
+  }
+
+#reset_block {
+  text-align: center;
+  background-color: black;
+  margin-left: -8px;
+  margin-right: -8px;
+  height: 70px;
+  display: none;
+}
+
+#reset_button {
+  position: absolute;
+  margin-top: 5px;
+  margin-left: 575px;
+}
+
+#header2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 20px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+#history {
+  text-align: center;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: -8px;
+  margin-left: -8px;
+  margin-right: -8px;
+  padding: 0px;
+}
+
+#paragraph1 {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#paragraph2  {
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+#paragraph3  {
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 50px;
+  font-size: 25px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-bottom: 50px;
+}
+
+  #button1 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button2 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button3 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button4 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button5 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button6 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button7 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button8 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
+
+  #button9 {
+    color: #00FF00;
+    font-size: 160px;
+    border-color: #FF6700;
+  }
